@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon link -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <!-- Remix Icon link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Linking CSS file -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Headphones Landing Page</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header" class="header">
+      <nav class="nav" id="nav">
+        <div class="logo">
+          <img src="/img/logo.png" alt="Brand Logo" />
+        </div>
+        <div class="menu" id="menu">
+          <ul>
+            <li><a href="#" class="nav_opt">Home</a></li>
+            <li><a href="#specs" class="nav_opt">Specs</a></li>
+            <li><a href="#case" class="nav_opt">Case</a></li>
+            <li><a href="#products" class="nav_opt">Products</a></li>
+          </ul>
+          <div class="menu_close" id="close"><i class="ri-close-line"></i></div>
+        </div>
+        <div class="menu_button" id="toggle">
+          <i class="ri-function-fill"></i>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <!-- Home Section -->
+      <section class="home-section section" id="home">
+        <div class="home-container container grid">
+          <div>
+            <img src="/img/home.png" alt="Home Image" class="home_image" />
+          </div>
+
+          <div class="home_data">
+            <div class="home-head">
+              <h1 class="home_title">On ear</h1>
+              <h2 class="home_subtitle">Beat 3</h2>
+            </div>
+
+            <div class="home-foot">
+              <h3 class="home_title-description">Overview</h3>
+              <p class="home-description">
+                Enjoy award-winning Beat sound with wireless listening freedom
+                and a sleek, streamlined design with comfortable padded
+                earphones, delivering first-rate playback.
+              </p>
+
+              <a href="#" class="button button-flex">
+                <span class="button-flex">
+                  <i class="ri-shopping-bag-line button-icon"></i> Add to Bag
+                </span>
+                <span class="home-price">$299</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sponsors Section -->
+      <section class="sponsor-section section">
+        <div class="sponsor-container container grid">
+          <img src="/img/sponsor1.png" alt="" class="sponsor-image" />
+          <img src="/img/sponsor2.png" alt="" class="sponsor-image" />
+          <img src="/img/sponsor3.png" alt="" class="sponsor-image" />
+          <img src="/img/sponsor4.png" alt="" class="sponsor-image" />
+        </div>
+      </section>
+
+      <!-- Specs Section -->
+      <section id="specs" class="section specs grid">
+        <h2 class="section-title">Specs</h2>
+
+        <div class="specs-container container grid">
+          <div class="specs-content grid">
+            <div class="specs-data">
+              <i class="ri-bluetooth-line specs-icon"></i>
+              <h3 class="specs-title">Connection</h3>
+              <span class="specs-subtitle">Bluetooth v5.2</span>
+            </div>
+
+            <div class="specs-data">
+              <i class="ri-battery-charge-line specs-icon"></i>
+              <h3 class="specs-title">Battery</h3>
+              <span class="specs-subtitle">Duration 40h</span>
+            </div>
+
+            <div class="specs-data">
+              <i class="ri-plug-line specs-icon"></i>
+              <h3 class="specs-title">Load</h3>
+              <span class="specs-subtitle">Fast charge 4.2-AAC</span>
+            </div>
+
+            <div class="specs-data">
+              <i class="ri-mic-line specs-icon"></i>
+              <h3 class="specs-title">Microphone</h3>
+              <span class="specs-subtitle"
+                >Supports Apple Siri <br/>
+                and Google</span>
+            </div>
+        </div>
+
+            <div>
+              <img src="/img/specs.png" alt="Specs Image" class="specs-img" />
+            </div>
+          
+        </div>
+      </section>
+
+      <!-- Case Section -->
+      <section id="case" class="case-section section grid">
+        <h2 class="section-title">Case</h2>
+        <div class="case-container container grid">
+          <div>
+            <img src="/img/case.png" alt="Case Image" class="case-img" />
+          </div>
+          <div class="case-data">
+            <p class="case-description">
+              With a comfortable and adaptable case so that you can store it
+              whenever you want, and keep your durability forever.
+            </p>
+            <a href="#" class="button button-flex">
+              <i class="ri-information-line button-icon"></i> More Info
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Discount Section -->
+      <section class="discount-section section">
+        <div class="discount-container container grid">
+          <div class="discount-animate">
+            <h2 class="discount-title">
+              Immerse yourself <br />
+              in your music
+            </h2>
+            <p class="discount-description">Get it now, upto 50% off.</p>
+            <a href="#" class="button button-flex">
+              <i class="ri-shopping-bag-line button-icon"></i> Shope Now
+            </a>
+          </div>
+          <img src="/img/discount.png" alt="Discount Image" class="discount-img" />
+        </div>
+      </section>
+
+      <!-- Products Section -->
+      <section id="products" class="products-section section">
+        <h2 class="section-title products-line">
+          Choose <br />
+          Your Style
+        </h2>
+        <div class="products-container container grid">
+          <!-- Product 1 -->
+          <article class="products-card">
+            <div class="products-content">
+              <img src="/img/product1.png" alt="" class="products-img" />
+              <h3 class="products-title">Black</h3>
+              <span class="products-price">$249</span>
+
+              <button class="button button-flex products-button">
+                <i class="ri-shopping-bag-line button-icon"></i>
+              </button>
+            </div>
+          </article>
+          <!-- Product 2 -->
+          <article class="products-card">
+            <div class="products-content">
+              <img src="/img/product2.png" alt="" class="products-img" />
+              <h3 class="products-title">Red Black</h3>
+              <span class="products-price">$249</span>
+
+              <button class="button button-flex products-button">
+                <i class="ri-shopping-bag-line button-icon"></i>
+              </button>
+            </div>
+          </article>
+          <!-- Product 3 -->
+          <article class="products-card">
+            <div class="products-content">
+              <img src="/img/product3.png" alt="" class="products-img" />
+              <h3 class="products-title">Night Black</h3>
+              <span class="products-price">$249</span>
+
+              <button class="button button-flex products-button">
+                <i class="ri-shopping-bag-line button-icon"></i>
+              </button>
+            </div>
+          </article>
+          <!-- Product 4 -->
+          <article class="products-card">
+            <div class="products-content">
+              <img src="/img/product4.png" alt="" class="products-img" />
+              <h3 class="products-title">Blue</h3>
+              <span class="products-price">$249</span>
+
+              <button class="button button-flex products-button">
+                <i class="ri-shopping-bag-line button-icon"></i>
+              </button>
+            </div>
+          </article>
+          <!-- Product 5 -->
+          <article class="products-card">
+            <div class="products-content">
+              <img src="/img/product5.png" alt="" class="products-img" />
+              <h3 class="products-title">Twilight gray</h3>
+              <span class="products-price">$249</span>
+
+              <button class="button button-flex products-button">
+                <i class="ri-shopping-bag-line button-icon"></i>
+              </button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer section">
+        <div class="footer-container container grid">
+          <a href="#" class="footer-logo">
+            <img src="/img/logo.png" alt="Logo" />
+          </a>
+
+          <div class="footer-content">
+            <h3 class="footer-title">Products</h3>
+            <ul class="footer-links">
+              <li>
+                <a href="#" class="footer-link">Headphones</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">Earphones</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">Earbuds</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">Accesories</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-content">
+            <h3 class="footer-title">Support</h3>
+            <ul class="footer-links">
+              <li>
+                <a href="#" class="footer-link">Product help</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">Register</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">Updates</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">Provides</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-content">
+            <form action="" class="footer-form">
+              <input type="email" placeholder="Email" class="footer-input" />
+              <button class="button button-flex">
+                <i class="ri-send-plane-line button-icon"></i> Subscribe
+              </button>
+            </form>
+
+            <div class="footer-social">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="footer-social-link"
+              >
+                <i class="ri-facebook-fill"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="footer-social-link"
+              >
+                <i class="ri-instagram-line"></i>
+              </a>
+              <a
+                href="https://www.twitter.com/"
+                target="_blank"
+                class="footer-social-link"
+              >
+                <i class="ri-twitter-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <p class="footer-copy">
+          <a
+            href="https://www.linkedin.com/in/muhammad-saif-a8b748285/"
+            target="_blank"
+            class="footer-copy-link"
+          >
+            &copy; Muhammad Saif. All right reserved
+          </a>
+        </p>
+      </footer>
+
+      <!-- Scroll Up -->
+      <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-s-line scroll-icon"></i>
+      </a>
+    </main>
+
+    <!-- main & scrollreveal js file -->
+    <script src="scrollreveal.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
